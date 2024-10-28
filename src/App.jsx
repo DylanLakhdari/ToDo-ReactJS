@@ -27,7 +27,7 @@ class App extends Component {
   }
 
   addItem() {
-    if (this.state.userInput == !"") {
+    if (this.state.userInput !== "") {
       const userInput = {
         //Ajoute un id unique pour la suppression
         id: Math.random(),
