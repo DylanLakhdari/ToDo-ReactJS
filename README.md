@@ -1,8 +1,24 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# ToDo-ReactJS
 
-Currently, two official plugins are available:
+Simple application ToDo avec ReactJS et Bootstrap
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Example d'utilisation](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHoxaGhyNjZwZHV4Z2pvbnd2am8ybTcyMWxodGs0Z3FnaHgyMHE1biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cQNTUAAiHu5oPHTWxk/giphy.gif)
+
+## Installation
+
+Utilisez le package manager [npm](https://docs.npmjs.com/about-npm) pour installer MDtic.
+
+```bash
+npm i
+```
+
+## Utilisation
+
+```bash
+npm run dev
+```
+
+
+## Packages utilisés
+[bootstrap](https://www.npmjs.com/package/bootstrap)  [react-bootstrap](https://www.npmjs.com/package/react-bootstrap)
