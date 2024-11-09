@@ -64,7 +64,7 @@ class App extends Component {
     const todos = [...this.state.list];
 
     //Demande à l'utilisateur une valeur avec un prompt
-    const editedTodo = prompt("Edit the todo:");
+    const editedTodo = prompt("Modifier la ligne:");
 
     //Si la nouvelle valeur n'est ni vide ni "null" met à jour l'élément
     if (editedTodo !== null && editedTodo.trim() !== "") {
@@ -102,15 +102,9 @@ class App extends Component {
                 aria-label="add something"
                 aria-describedby="basic-addon2"
               />
-              <InputGroup>
-                <Button
-                  variant="dark"
-                  className="mt-2"
-                  onClick={() => this.addItem()}
-                >
-                  Ajouter
-                </Button>
-              </InputGroup>
+              <Button className="" onClick={() => this.addItem()}>
+                Ajouter
+              </Button>
             </InputGroup>
           </Col>
         </Row>
