@@ -7,7 +7,7 @@ Simple application ToDo avec ReactJS et Bootstrap
 
 ## Installation
 
-Utilisez le package manager [npm](https://docs.npmjs.com/about-npm) pour installer MDtic.
+Utilisez le package manager [npm](https://docs.npmjs.com/about-npm) pour installer les dépendances.
 
 ```bash
 npm i

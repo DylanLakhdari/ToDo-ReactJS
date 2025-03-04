@@ -77,7 +77,7 @@ class App extends Component {
   };
   render() {
     return (
-      <Container>
+      <Container style={{ minHeight: '100vh', minWidth: '100%', background: 'radial-gradient(circle, rgba(178,174,238,1) 0%, rgba(43,15,254,1) 100%)'}} className="bg-success">
         <Row
           style={{
             display: "flex",
@@ -85,6 +85,7 @@ class App extends Component {
             alignItems: "center",
             fontSize: "3rem",
             fontWeight: "bolder",
+            color: "white",
           }}
         >
           ToDo ReactJS
